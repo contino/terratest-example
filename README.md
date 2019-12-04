@@ -7,8 +7,8 @@ The goal of this project create an example terraform goal with automated testing
 #Todo
 
 ## Tools Used:
-[testify](https://github.com/stretchr/testify) handles testing suites in golang.
-[terratest](https://github.com/gruntwork-io/terratest) is used as a library to execute Terraform commands from golang
+* [testify](https://github.com/stretchr/testify) handles testing suites in golang.
+* [terratest](https://github.com/gruntwork-io/terratest) is used as a library to execute Terraform commands from golang
 
 ## Known issues:
 
