@@ -49,7 +49,6 @@ func (suite *TerraformTestSuite) TearDownSuite() {
 }
 
 func (suite *TerraformTestSuite) TestTerraformHttpExample() {
-	fmt.Println("Potato")
 
 	// Run `terraform output` to get the value of an output variable
 	url := terraform.Output(suite.T(), suite.terraformOptions, "url")
